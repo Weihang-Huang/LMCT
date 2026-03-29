@@ -1,0 +1,57 @@
+{
+  "best_metric": 3.413029193878174,
+  "best_model_checkpoint": "/notebooks/ai_translation/outputs/finetune_logs/gpt2_llama-3.3-70b-instruct/checkpoint-200",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 200,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.2,
+      "learning_rate": 1.8733333333333336e-05,
+      "loss": 3.7415,
+      "step": 40
+    },
+    {
+      "epoch": 0.4,
+      "learning_rate": 1.7400000000000003e-05,
+      "loss": 3.6585,
+      "step": 80
+    },
+    {
+      "epoch": 0.6,
+      "learning_rate": 1.606666666666667e-05,
+      "loss": 3.6272,
+      "step": 120
+    },
+    {
+      "epoch": 0.8,
+      "learning_rate": 1.4733333333333335e-05,
+      "loss": 3.6064,
+      "step": 160
+    },
+    {
+      "epoch": 1.0,
+      "learning_rate": 1.3400000000000002e-05,
+      "loss": 3.5358,
+      "step": 200
+    },
+    {
+      "epoch": 1.0,
+      "eval_loss": 3.413029193878174,
+      "eval_runtime": 1.875,
+      "eval_samples_per_second": 106.668,
+      "eval_steps_per_second": 26.667,
+      "step": 200
+    }
+  ],
+  "logging_steps": 40,
+  "max_steps": 600,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "total_flos": 211026758860800.0,
+  "trial_name": null,
+  "trial_params": null
+}
